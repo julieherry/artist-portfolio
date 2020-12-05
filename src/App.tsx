@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Page from "./Page";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import config from "./config";
 import { isPage } from "./types";
 
@@ -32,6 +33,9 @@ function App() {
                   }
                 })}
             </Switch>
+          </div>
+          <div className="footer">
+            <Footer/>
           </div>
       </Router>
   );

@@ -1,0 +1,57 @@
+.page {
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.a {
+    color: #FA58F4;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.block.reverse {
+    flex-direction: row-reverse;
+}
+
+.block > img {
+    width: 50%;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.block > p {
+    font-size: 1.4rem;
+    text-align: justify;
+    font-weight: 300;
+    padding: 2rem;
+    width: 50%;
+}
+
+
+/*
+ * Smartphones
+ */
+
+ @media (max-width: 750px) {
+    .block {
+        flex-direction: column;
+    }
+
+    .block.reverse {
+        flex-direction: column;
+    }
+
+    .block > img {
+        width: 100%;
+    }
+
+    .block > p {
+        width: 100%;
+    }
+}
