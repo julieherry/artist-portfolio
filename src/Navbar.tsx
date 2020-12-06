@@ -30,7 +30,12 @@ export default function Navbar() {
     return (
         <div className={isPageTop ? "navbar" : "navbar scrolled"}>
             <span className="title">
-                <NavLink onClick={() => setIsOpen(false)} to="/">{config.name}</NavLink>
+            
+                <NavLink
+                    activeClassName="active"
+                    onClick={() => setIsOpen(false)}
+                    to="/"
+                >{config.name}</NavLink>
             </span>
             <div className={isOpen ? "burger open" : "burger"} onClick={() => setIsOpen(true)}>
                 <svg viewBox="0 0 60 80" width="15" height="15">
@@ -64,17 +69,19 @@ export default function Navbar() {
                                 onMouseLeave={() => setHover(null)}
                             >
                                 <span
-                                    className={isSubItemActive(section) ? "active" : ""}
+                                    className={isSubItemActive(section) || hover === section.name ? "active" : ""}
                                 >{section.name}</span>
-                                <ul 
+                                <div
                                     onMouseLeave={() => setHover(null)}
                                     onMouseEnter={() => setHover(section.name)}
                                     className={hover === section.name ? "dropdown" : "dropdown hidden"}
                                 >
-                                    {section.pages.map(page => (
-                                        <li onClick={() => setIsOpen(false)} className="dropdownItem" key={page.name}><span><NavLink to={page.path}>{page.name}</NavLink></span></li>
-                                    ))}
-                                </ul>
+                                    <ul>
+                                        {section.pages.map(page => (
+                                            <li onClick={() => setIsOpen(false)} className="dropdownItem" key={page.name}><span><NavLink to={page.path}>{page.name}</NavLink></span></li>
+                                        ))}
+                                    </ul>
+                                </div>
                             </li>;
                         }
                     })

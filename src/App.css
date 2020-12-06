@@ -5,8 +5,23 @@
 
 .main {
   position: relative;
-  top: 5.5rem;
+  top: 3.5rem;
   width: 100vw;
   display: flex;
   flex-direction: column;
+  min-height: 65vh;
+}
+
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 10rem;
+  height: 5rem;
+  text-align: center;
+}
+
+::selection {
+  color: #FA58F4;
+  background: #eae7e7;
 }

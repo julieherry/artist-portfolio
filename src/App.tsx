@@ -10,10 +10,13 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import config from "./config";
 import { isPage } from "./types";
+import ScrollToTop from "./ScrollToTop"
+
 
 function App() {
   return (
       <Router>
+          <ScrollToTop/>
           <div className="nav">
             <Navbar/>
           </div>
@@ -32,13 +35,21 @@ function App() {
                     })
                   }
                 })}
+                <Route path="/">
+                    <NotFound />
+                </Route>
             </Switch>
           </div>
           <div className="footer">
-            <Footer/>
+            <Footer name={config.name} socials={config.socials}/>
           </div>
       </Router>
   );
+}
+
+function NotFound () {
+  window.location.href = "/";
+  return null;
 }
 
 export default App;

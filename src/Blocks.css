@@ -1,5 +1,5 @@
 .page {
-    max-width: 50rem;
+    max-width: 70vw;
     margin: 0 auto;
 }
 
@@ -33,6 +33,13 @@
     width: 50%;
 }
 
+.block.unique > img {
+    width: 100%;
+}
+
+.block.unique > p {
+    width: 100%;
+}
 
 /*
  * Smartphones

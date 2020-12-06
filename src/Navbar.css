@@ -27,8 +27,7 @@
     color: #000;
 }
 
-
-a:hover {
+.navbar > .title > a:hover {
     color: #FA58F4;
 }
 
@@ -52,6 +51,7 @@ a:hover {
 
 .navbar > ul.navItems > li.navItem > a {
     color: #000;
+    z-index: 1100;
 }
 
 .navbar > ul.navItems > li.navItem > a:hover {
@@ -85,40 +85,49 @@ a:hover {
     margin-left: 25%;
 }
 
+.navbar > ul.navItems > li.navItem > div.dropdown > ul > li > span > a:hover,
+.navbar > ul.navItems > li.navItem > div.dropdown > ul > li > span > a.active,
+.navbar > ul.navItems > li.navItem > div.dropdown > span:hover,
+.navbar > ul.navItems > li.navItem > div.dropdown > span.active,
 .navbar > ul.navItems > li.navItem > span:hover,
 .navbar > ul.navItems > li.navItem > span.active {
     color: #FA58F4;
 }
 
-.navbar > ul.navItems > li.navItem > ul.dropdown {
+.navbar > ul.navItems > li.navItem > div.dropdown {
+    margin-top: -2rem;
+    margin-right: -2rem;
+    z-index: 9999;
+    min-height: 4rem;
+    position: relative;
+    /* transition: visibility 0s ease-in-out 0.2s,all 0.2s ease-in-out; */
+}
+
+.navbar > ul.navItems > li.navItem > div.dropdown > ul {
     font-weight: 700;
     display: flex;
-    position: absolute;
+    background-color: white; 
     z-index: 9999;
-    top: 4rem;
     flex-direction: column;
-    transition: visibility 0s ease-in-out 0.2s,all 0.2s ease-in-out;
-    background-color: white;
-    padding-top: 5px;
     padding-left: 10px;
+    top: 3rem;
+    /* padding-top: 1.5rem; */
+    position: absolute;
+    width: max-content;
     padding-right: 10px;
     padding-bottom: 10px;
 }
 
-.navbar > ul.navItems > li.navItem > ul.dropdown.hidden {
+.navbar > ul.navItems > li.navItem > div.dropdown.hidden {
     display: none;
 }
 
-.navbar > ul.navItems > li.navItem > ul.dropdown > li {
+.navbar > ul.navItems > li.navItem > div.dropdown > ul > li {
     padding-top: 1rem;
 }
 
-.navbar > ul.navItems > li.navItem > ul.dropdown > li > span > a {
+.navbar > ul.navItems > li.navItem > div.dropdown > ul > li > span > a {
     color: #a2a2a2;
-}
-
-.navbar > ul.navItems > li.navItem > ul.dropdown > li > span > a:hover {
-    color: #FA58F4;
 }
 
 .navbar > .burger {
@@ -182,9 +191,15 @@ a:hover {
         margin-bottom: 1rem;
     }
 
-    .navbar > ul.navItems > li.navItem > ul.dropdown {
-        top: 5rem;
+    .navbar > ul.navItems > li.navItem > div.dropdown {
+        min-height: 2rem;
+        margin-right: -1rem;
     }
+
+    .navbar > ul.navItems > li.navItem > div.dropdown > ul {
+        top: 2rem;
+    }
+
 }
 
 
@@ -261,7 +276,7 @@ a:hover {
         background-color: white;
     }
 
-    .navbar > ul.navItems > li.navItem > ul.dropdown {
+    .navbar > ul.navItems > li.navItem > div.dropdown > ul {
         top: 0rem;
     }
 
@@ -276,7 +291,7 @@ a:hover {
         padding-right: 0px;
     }
 
-    .navbar > ul.navItems > li.navItem > ul.dropdown > li {
+    .navbar > ul.navItems > li.navItem > div.dropdown > ul > li {
         padding-top: 0.5rem;
     }
 
@@ -287,15 +302,24 @@ a:hover {
         display: none;
     }
 
-    .navbar > ul.navItems > li.navItem > ul.dropdown {
+    .navbar > ul.navItems > li.navItem > div.dropdown {
+        margin-top: 0rem;
+        margin-right: 0rem;
+        z-index: 9999;
+        position: relative;
+    }
+
+    .navbar > ul.navItems > li.navItem > div.dropdown > ul {
         position: relative;
         z-index: 9999;
+        width: 100%;
         top: 0rem;
         flex-direction: column;
         padding-top: 5px;
+        margin-left: -1rem;
     }
 
-    .navbar > ul.navItems > li.navItem > ul.dropdown.hidden {
+    .navbar > ul.navItems > li.navItem > div.dropdown.hidden {
         display: block;
     }
 }

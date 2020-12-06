@@ -1,27 +1,28 @@
 import {TConfig} from "./types";
+import About from "./Pages/About";
 
 const polymorpheBlocks = [{
         paragraph: <>Dessins réalisés en 2020 pour illustrer l’article « Sortir de nos mètres carrés » de Ludovic Clerima dans la revue de l’association Polymorphe.</>,
         images: [{
-            name: "The Big Nowhere",
+            name: "Revue polymorphe",
             src: "/assets/img/revue-polymorphe/scan_magasine_1.jpg"
         }]
     }, {
         paragraph: <>Dans cet article Ludovic Clerima interroge pourquoi un logement spacieux en milieu rural vaut moins cher qu’un studio dans une zone urbaine et comment la population s’adapte à cette situation.</>,
         images: [{
-            name: "The Big Nowhere",
+            name: "Revue polymorphe",
             src: "/assets/img/revue-polymorphe/scan_magasine_2.jpg"
         }]
     }, {
         paragraph: <>Pour illustrer cet article, je suis allée sur le site particulier à particulier, observer le phénomène de mes propres yeux. J’ai ainsi dessiner la photo d’un studio parisien loué 650 euros et celle d’une maison en pierre de 70m carré en Ardèche louée au même prix.</>,
         images: [{
-            name: "The Big Nowhere",
+            name: "Revue polymorphe",
             src: "/assets/img/revue-polymorphe/scan_magasine_3.jpg"
         }]
     }, {
         paragraph: <>Pour en savoir plus sur l’association Polymorphes, n’hésitez pas à visiter leur <a href="https://www.polymorphecorp.com/" rel="noreferrer" target="_blank">site</a>!</>,
         images: [{
-            name: "The Big Nowhere",
+            name: "Revue polymorphe",
             src: "/assets/img/revue-polymorphe/side-by-side.jpg"
         }]
     }
@@ -29,1072 +30,1154 @@ const polymorpheBlocks = [{
 
 const config: TConfig =  {
     name: "JULIE HERRY",
+    socials: {
+        instagram: "https://www.instagram.com/julieherry",
+        email: "julieherry@yahoo.com"
+    },
     sections: [
-    
-    /*
-     * New
-     */
-    {
-        name: "new",
-        title: "polymorphe",
-        path: "/polymorphe",
-        blocks: polymorpheBlocks
-    },
 
-    /*
-     * A4
-     */
-    {
-        name: "a4",
-        path: "/a4",
-        gallery: {
-            images: [{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.1.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.1.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.2.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.2.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.3.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.3.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.4.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.4.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.5.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.5.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.6.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.6.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.7.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.7.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.8.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.8.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.9.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.9.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.10.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.10.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.11.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.11.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.12.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.12.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.13.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.13.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.14.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.14.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.15.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.15.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.16.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.16.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.17.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.17.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.18.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.18.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.19.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.19.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.20.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.20.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.21.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.21.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.22.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.22.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.23.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.23.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.24.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.24.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.25.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.25.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.26.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.26.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.27.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.27.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.28.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.28.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.29.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.29.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.30.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.30.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.31.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.31.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.32.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.32.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.33.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.33.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.34.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.34.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.35.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.35.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.36.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.36.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.37.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.37.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.38.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.38.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.39.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.39.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.40.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.40.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.41.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.41.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.42.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.42.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.43.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.43.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.44.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.44.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.45.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.45.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.46.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.46.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.47.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.47.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.48.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.48.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.49.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.49.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.50.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.50.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.51.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.51.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.52.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.52.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.53.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.53.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.54.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.54.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.55.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.55.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.56.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.56.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.57.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.57.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.58.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.58.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.59.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.59.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.60.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.60.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.61.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.61.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.62.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.62.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.63.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.63.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.64.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.64.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.65.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.65.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.66.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.66.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.67.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.67.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.68.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.68.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.69.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.69.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.70.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.70.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.71.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.71.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.72.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.72.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.73.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.73.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.74.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.74.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.75.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.75.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.76.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.76.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.77.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.77.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.78.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.78.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.79.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.79.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.80.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.80.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.81.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.81.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.82.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.82.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.83.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.83.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.84.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.84.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.85.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.85.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.86.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.86.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.87.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.87.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.88.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.88.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.89.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.89.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.90.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.90.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.91.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.91.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.92.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.92.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.93.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.93.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.94.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.94.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.95.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.95.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.96.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.96.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.97.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.97.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.98.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.98.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.99.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.99.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.100.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.100.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.101.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.101.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.102.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.102.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.103.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.103.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.104.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.104.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.105.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.105.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.106.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.106.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.107.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.107.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.108.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.108.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.109.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.109.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.110.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.110.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.111.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.111.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.112.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.112.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.113.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.113.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.114.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.114.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.115.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.115.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.116.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.116.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.117.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.117.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.118.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.118.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.119.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.119.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.120.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.120.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.121.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.121.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.122.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.122.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.123.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.123.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.124.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.124.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.125.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.125.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.126.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.126.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.127.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.127.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.128.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.128.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.129.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.129.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.130.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.130.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.130.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.130.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.131.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.131.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.132.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.132.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.133.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.133.jpg",
-                width: 1,
-                height: 1.3
-            },{
-                name: "A4, feutre sur papier, 21x29,7cm",
-                src: "/assets/img/a4/A4.134.jpg",
-                thumbnails: "/assets/img/thumbs/a4/A4.134.jpg",
-                width: 1,
-                height: 1.3
-            }]
-        }
-    },
-    
-    /*
-     * Drawings
-     */
-    {
-        name: "drawings",
-        pages: [
-
-            /*
-            * Par la fenêtre
-            */
-            {
-                name: "Par la fenêtre",
-                path: "/fenetres",
-                gallery: {
-                    images: [{
-                        name: "A4, feutre sur papier, 21x29,7cm",
-                        src: "/assets/img/a4/A4.5.jpg",
-                        thumbnails: "/assets/img/thumbs/a4/A4.5.jpg",
-                        width: 1,
-                        height: 1
-                    }]
-                }
-            },
-
-
-            /*
-            * Closer
-            */
-            {
-                name: "Closer",
-                path: "/closer",
-                gallery: {
-                    images: [{
-                        name: "A4, feutre sur papier, 21x29,7cm",
-                        src: "/assets/img/a4/A4.5.jpg",
-                        thumbnails: "/assets/img/thumbs/a4/A4.5.jpg",
-                        width: 1,
-                        height: 1
-                    }]
-                }
-            },
-
-            /*
-            * Pool Party
-            */
-            {
-                name: "Pool party",
-                path: "/pool",
-                gallery: {
-                    images: [{
-                        name: "A4, feutre sur papier, 21x29,7cm",
-                        src: "/assets/img/a4/A4.5.jpg",
-                        thumbnails: "/assets/img/thumbs/a4/A4.5.jpg",
-                        width: 1,
-                        height: 1
-                    }]
-                }
-            },
-
-            /*
-            * Haies
-            */
-            {
-                name: "Haies",
-                path: "/haies",
-                gallery: {
-                    images: [{
-                        name: "A4, feutre sur papier, 21x29,7cm",
-                        src: "/assets/img/a4/A4.5.jpg",
-                        thumbnails: "/assets/img/thumbs/a4/A4.5.jpg",
-                        width: 1,
-                        height: 1
-                    }]
-                }
-            },
-
-            /*
-            * 758 Evergreen Terrace
-            */
-            {
-                name: "758 Evergreen Terrace",
-                path: "/758-evergreen-terrace",
-                blocks: []
-            },
-
-            /*
-            * Au beau milieu d'un rêve
-            */
-            {
-                name: "Au beau milieu d'un rêve",
-                path: "/au-beau-milieu-d-un-reve",
-                blocks: []
-            },
-
-            /*
-            * Jardinières
-            */
-            {
-                name: "Jardinières",
-                path: "/jardinieres",
-                gallery: {
-                    images: [{
-                        name: "A4, feutre sur papier, 21x29,7cm",
-                        src: "/assets/img/a4/A4.5.jpg",
-                        thumbnails: "/assets/img/thumbs/a4/A4.5.jpg",
-                        width: 1,
-                        height: 1
-                    }]
-                }
-            },
-        ]
-    },
-
-    /*
-     * Paintings
-     */
-    {
-        name: "paintings",
-        pages: [
-
-            /*
-            * Voies rapides
-            */
-            {
-                name: "Voies rapides",
-                path: "/voies-rapides",
-                blocks: []
-            },
-
-            /*
-            * Paysages
-            */
-            {
-                name: "Paysages",
-                path: "/paysages",
-                blocks: []
-            },
-
-            /*
-            * Road pictures
-            */
-            {
-                name: "Road Pictures",
-                path: "/road-pictures",
-                blocks: []
-            },
-
-        ]
-    },
-
-    /*
-     * Commissions
-     */
-    {
-        name: "commissions",
-        pages: [
-
-            /*
-            * Voies rapides
-            */
-            {
-                name: "Revues Polymorphes",
-                path: "/polymorphes",
-                blocks: []
-            },
-
-            /*
-            * Paysages
-            */
-            {
-                name: "The Big Nowhere",
-                path: "/the-big-nowhere",
-                blocks: [{
-                    paragraph: <>
-                        Peinture murale réalisée en 2019 dans les bureaux parisiens de la start-up FrontApp.
-                        The Big Nowhere est le titre d’un roman de James Ellroy se passant en Californie.
-                        <br/><br/>
-                        Ce titre est devenu mon inspiration pour ce projet puisque la start up FrontApp est en grande partie basée à San Francisco.
-                    </>,
-                    images: [{
-                        name: "The Big Nowhere",
-                        src: "/assets/img/nowhere/the.big.nowhere.1.jpg"
-                    }]
-                }, {
-                    paragraph: <>
-                        Je me suis demandée à quoi ressemblerait ce « grand nul part », ce lieu qui n’existe que dans nos imaginations.
-                        J’ai ainsi réalisé ce paysage, à la limite de l’abstraction reprenant certains codes du rêve américain : un palmier, une piscine et une pelouse.
-                    </>,
-                    images: [{
-                        name: "The Big Nowhere",
-                        src: "/assets/img/nowhere/the.big.nowhere.2.jpg"
-                    }]
-                }, {
-                    images: [{
-                        name: "The Big Nowhere",
-                        src: "/assets/img/nowhere/the.big.nowhere.3.jpg"
-                    }, {
-                        name: "The Big Nowhere",
-                        src: "/assets/img/nowhere/the.big.nowhere.4.jpg"
-                    }]
+        /*
+        * New
+        */
+        {
+            name: "",
+            title: "",
+            path: "/",
+            blocks: [{
+                images: [{
+                    name: "The Big Nowhere",
+                    src: "/assets/img/dessin-site.jpg",
+                    width: "50rem"
                 }]
-            },
+            }]
+        },
 
-            /*
-            * Road pictures
-            */
-            {
-                name: "Road Pictures",
-                path: "/road-pictures",
-                blocks: []
-            },
+        
+        /*
+        * New
+        */
+        {
+            name: "new",
+            title: "Revue Polymorphe",
+            path: "/polymorphe",
+            blocks: polymorpheBlocks
+        },
 
-        ]
-    },
+        /*
+        * A4
+        */
+        {
+            name: "a4",
+            path: "/a4",
+            gallery: {
+                type: "photo",
+                maxWidthCarousel: "30rem",
+                images: Array.from({length: 134}, (item, index) => ({
+                        name: "A4, feutre sur papier, 21x29,7cm",
+                        src: `/assets/img/a4/a4.${index+1}.jpg`,
+                        thumbnails: `/assets/img/a4/thumbs/a4.${index+1}.jpg`,
+                        width: 1,
+                        height: 1.3
+                }))
+            }
+        },
+        
+        /*
+        * Drawings
+        */
+        {
+            name: "drawings",
+            pages: [
+
+                /*
+                * Par la fenêtre
+                */
+                {
+                    name: "Par la fenêtre",
+                    path: "/fenetres",
+                    gallery: {
+                        type: "photo",
+                        maxWidthCarousel: "30rem",
+                        images: [{
+                            src: "/assets/img/fenetres/fenetre_0.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_0.jpg",
+                            name: "A4, Par ma fenêtre 1, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_1.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_1.jpg",
+                            name: "A4, Par ma fenêtre 2, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_2.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_2.jpg",
+                            name: "A4, Par ma fenêtre 3, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_3.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_3.jpg",
+                            name: "A4, Par la fenêtre de Safouane, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_4.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_4.jpg",
+                            name: "A4, Par la fenêtre de Sarah-Louise, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_5.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_5.jpg",
+                            name: "A4, Par la fenêtre de Simon, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_6.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_6.jpg",
+                            name: "A4, Par la fenêtre de M'Hand et Charlotte, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_7.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_7.jpg",
+                            name: "A4, Par la fenêtre d'Antoine C., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_8.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_8.jpg",
+                            name: "A4, Par la fenêtre de Bill, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_9.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_9.jpg",
+                            name: "A4, Par la fenêtre de Pierre, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_10.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_10.jpg",
+                            name: "A4, Par la fenêtre de Delphes, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_11.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_11.jpg",
+                            name: "A4, Par la fenêtre de Marie, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_12.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_12.jpg",
+                            name: "A4, Par la fenêtre de Jerry, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_13.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_13.jpg",
+                            name: "A4, Par la fenêtre de Laure-Anne et Arnaud, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_14.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_14.jpg",
+                            name: "A4, Par la fenêtre de Jade, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_15.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_15.jpg",
+                            name: "A4, Par la fenêtre de Alicia, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_16.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_16.jpg",
+                            name: "A4, Par la fenêtre de Camille H., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_17.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_17.jpg",
+                            name: "A4, Par la fenêtre de Roberto, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_18.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_18.jpg",
+                            name: "A4, Par la fenêtre de Yosra, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_19.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_19.jpg",
+                            name: "A4, Par la fenêtre d'Ines, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_20.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_20.jpg",
+                            name: "A4, Par la fenêtre de Jean-Daniel, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_21.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_21.jpg",
+                            name: "A4, Par la fenêtre d'Etienne, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_22.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_22.jpg",
+                            name: "A4, Par la fenêtre de Christian et Laurence, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_23.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_23.jpg",
+                            name: "A4, Par la fenêtre de Pauline L., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_24.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_24.jpg",
+                            name: "A4, Par la fenêtre d'Etienne A., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_25.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_25.jpg",
+                            name: "A4, Par la fenêtre de Karoline, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_26.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_26.jpg",
+                            name: "A4, Par la fenêtre de Clotilde, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_27.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_27.jpg",
+                            name: "A4, Par la fenêtre de Aurelien, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_28.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_28.jpg",
+                            name: "A4, Par la fenêtre de Lea et Romain, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_29.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_29.jpg",
+                            name: "A4, Par la fenêtre de Marion D., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_30.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_30.jpg",
+                            name: "A4, Par la fenêtre de Caroline, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_31.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_31.jpg",
+                            name: "A4, Par la fenêtre de Pauline B., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_32.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_32.jpg",
+                            name: "A4, Par la fenêtre d'Eleonore, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_33.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_33.jpg",
+                            name: "A4, Par la fenêtre de Melchior, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_34.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_34.jpg",
+                            name: "A4, Par la fenêtre d'Anouk, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_35.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_35.jpg",
+                            name: "A4, Par la fenêtre de Maxime et Olivier, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_36.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_36.jpg",
+                            name: "A4, Par ma fenêtre 4, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_37.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_37.jpg",
+                            name: "A4, Par la fenêtre de Kevin, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_38.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_38.jpg",
+                            name: "A4, Par la fenêtre de Julien, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_39.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_39.jpg",
+                            name: "A4, Par la fenêtre de Pierre-Antoine, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_40.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_40.jpg",
+                            name: "A4, Par la fenêtre d'Alexandre L., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_41.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_41.jpg",
+                            name: "A4, Par la fenêtre de Yannick, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_42.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_42.jpg",
+                            name: "A4, Par la fenêtre de Cecilia, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_43.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_43.jpg",
+                            name: "A4, Par la fenêtre de Maud, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_44.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_44.jpg",
+                            name: "A4, Par la fenêtre de Gael, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_45.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_45.jpg",
+                            name: "A4, Par la fenêtre de Simon B., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_46.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_46.jpg",
+                            name: "A4, Par la fenêtre de Lena, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_47.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_47.jpg",
+                            name: "A4, Par la fenêtre de Terah, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_48.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_48.jpg",
+                            name: "A4, Par la fenêtre de Carole, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_49.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_49.jpg",
+                            name: "A4, Par la fenêtre de Océane, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_50.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_50.jpg",
+                            name: "A4, Par la fenêtre de Jessica, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_51.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_51.jpg",
+                            name: "A4, Par la fenêtre de Fanny, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_52.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_52.jpg",
+                            name: "A4, Par la fenêtre de Camille M., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_53.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_53.jpg",
+                            name: "A4, Par la fenêtre d'Alexandra, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_54.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_54.jpg",
+                            name: "A4, Par la fenêtre de Lina, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_55.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_55.jpg",
+                            name: "A4, Par la fenêtre de Sofiane, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_56.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_56.jpg",
+                            name: "A4, Par la fenêtre de Mathyld et Jef, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_57.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_57.jpg",
+                            name: "A4, Par la fenêtre d'Antoine S., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_58.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_58.jpg",
+                            name: "A4, Par la fenêtre de Fagtice, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_59.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_59.jpg",
+                            name: "A4, Par la fenêtre de Felix, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_60.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_60.jpg",
+                            name: "A4, Par la fenêtre d'Anna, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_61.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_61.jpg",
+                            name: "A4, Par la fenêtre de Celeste, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_62.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_62.jpg",
+                            name: "A4, Par la fenêtre d'Antoine V., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_63.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_63.jpg",
+                            name: "A4, Par la fenêtre de Claire L., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_64.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_64.jpg",
+                            name: "A4, Par la fenêtre de Camille R., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_65.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_65.jpg",
+                            name: "A4, Par la fenêtre de Claire D., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_66.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_66.jpg",
+                            name: "A4, Par la fenêtre d'Anthony, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_67.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_67.jpg",
+                            name: "A4, Par la fenêtre de James, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_68.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_68.jpg",
+                            name: "A4, Par la fenêtre de Marion B., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_69.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_69.jpg",
+                            name: "A4, Par la fenêtre de Louis, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_70.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_70.jpg",
+                            name: "A4, Par la fenêtre de Mathilde, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_71.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_71.jpg",
+                            name: "A4, Par la fenêtre de Camille M., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_72.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_72.jpg",
+                            name: "A4, Par la fenêtre de Julie, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_73.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_73.jpg",
+                            name: "A4, Par la fenêtre de Caroline C., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_74.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_74.jpg",
+                            name: "A4, Par la fenêtre de Melody, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_75.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_75.jpg",
+                            name: "A4, Par la fenêtre de Sacha, feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_76.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_76.jpg",
+                            name: "A4, Par la fenêtre de Camille D., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        },
+                        {
+                            src: "/assets/img/fenetres/fenetre_77.jpg",
+                            thumbnails: "/assets/img/fenetres/thumbs/fenetre_77.jpg",
+                            name: "A4, Par la fenêtre de Camille A., feutre sur papier, 21x29,7cm",
+                            width: 1,
+                            height: 1.3
+                        }]
+                    }
+                },
+
+
+                /*
+                * Closer
+                */
+                {
+                    name: "Closer",
+                    path: "/closer",
+                    gallery: {
+                        type: "image",
+                        images: [{
+                            src: "/assets/img/closer/chez-john-doe.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-john-doe.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2017",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-kristen-stewart.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-kristen-stewart.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2017, Chez Kristen Stewart",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-justin-bieber-1.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-justin-bieber-1.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2016, Chez Justin Bieber",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-justin-bieber-2.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-justin-bieber-2.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2015, Chez Justin Bieber",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-britney-spears.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-britney-spears.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2017, Chez Britney Spears",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-johnny-depp-et-vanessa-paradis.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-johnny-depp-et-vanessa-paradis.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2018, Chez Johnny Depp et Vannessa Paradis",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-leonardo-dicaprio.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-leonardo-dicaprio.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2018, Chez Leonardo Dicaprio",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-paris-hilton.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-paris-hilton.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2017, Chez Paris Hilton",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/closer/chez-brad-pitt-et-angelina-jolie.jpg",
+                            thumbnails: "/assets/img/closer/thumbs/chez-brad-pitt-et-angelina-jolie.jpg",
+                            name: "techniques mixtes sur papier, 50x65cm, 2018, Chez Brad Pitt et Angelina Jolie",
+                            width: 1.3,
+                            height: 1
+                        }
+                    
+                    ]
+                    }
+                },
+
+                /*
+                * Pool Party
+                */
+                {
+                    name: "Pool party",
+                    path: "/pool",
+                    gallery: {
+                        type: "image",
+                        images: [{
+                            name: "La Villa, 2017",
+                            src: "/assets/img/pool/pool.1.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.1.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "Piscine 1, 2015, 50x65cm",
+                            src: "/assets/img/pool/pool.2.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.2.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "",
+                            src: "/assets/img/pool/pool.3.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.3.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "Sans titre, 2017",
+                            src: "/assets/img/pool/pool.4.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.4.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "La cité de sable, 2015, 50x65cm",
+                            src: "/assets/img/pool/pool.5.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.5.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "I know a place where the grass is really greener, 350x240cm, 2016",
+                            src: "/assets/img/pool/pool.6.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.6.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "",
+                            src: "/assets/img/pool/pool.7.jpg",
+                            thumbnails: "/assets/img/pool/thumbs/pool.7.jpg",
+                            width: 1,
+                            height: 1
+                        }]
+                    }
+                },
+
+                /*
+                * Haies
+                */
+                {
+                    name: "Haies",
+                    path: "/haies",
+                    gallery: {
+                        type: "image",
+                        images: Array.from({length: 11}, (item, index) => ({
+                            name: `Haies ${index+1}, techniques mixtes sur papier, 20x14cm, 2014`,
+                            src: `/assets/img/haies/haie${index+1}.jpg`,
+                            thumbnails: `/assets/img/haies/thumbs/haie${index+1}.jpg`,
+                            width: 1,
+                            height: 1
+                        }))
+                    }
+                },
+
+                /*
+                * 758 Evergreen Terrace
+                */
+                {
+                    name: "758 Evergreen Terrace",
+                    path: "/758-evergreen-terrace",
+                    gallery: {
+                        type: "image",
+                        images: [{
+                            name: "Techniques mixtes sur papier, 50x65cm, 2014",
+                            src: "/assets/img/758-evergreen-terrace/758-evergreen-terrace-1.jpg",
+                            thumbnails: "/assets/img/758-evergreen-terrace/thumbs/758-evergreen-terrace-1.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "Vue de l’exposition Utopies fluviales à Nanterres, 2017",
+                            src: "/assets/img/758-evergreen-terrace/758-evergreen-terrace-2.jpg",
+                            thumbnails: "/assets/img/758-evergreen-terrace/thumbs/758-evergreen-terrace-2.jpg",
+                            width: 1,
+                            height: 1
+                        }]
+                    }
+                },
+
+                /*
+                * Au beau milieu d'un rêve
+                */
+                {
+                    name: "Au beau milieu d'un rêve",
+                    path: "/au-beau-milieu-d-un-reve",
+                    gallery: {
+                        type: "image",
+                        images: Array.from({length: 2}, (item, index) => ({
+                            name: `Techniques mixtes sur carton, 50x65cm, 2015`,
+                            src: `/assets/img/reve/0${index+1}b.jpg`,
+                            thumbnails: `/assets/img/reve/thumbs/0${index+1}b.jpg`,
+                            width: 1,
+                            height: 1
+                        }))
+                    }
+                },
+
+                /*
+                * Jardinières
+                */
+                {
+                    name: "Jardinières",
+                    path: "/jardinieres",
+                    gallery: {
+                        type: "photo",
+                        maxWidthCarousel: "70rem",
+                        images: [
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.01.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.01.jpg",
+                            name: "18*24cm, Sainte Feyre 1, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.02.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.02.jpg",
+                            name: "18*24cm, Sainte Feyre 2, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.03.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.03.jpg",
+                            name: "18*24cm, Porte de Vanves, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.04.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.04.jpg",
+                            name: "18*24cm, Face à la gare de Guéret, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.05.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.05.jpg",
+                            name: "18*24cm, Pantin, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.06.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.06.jpg",
+                            name: "18*24cm, Bagneux, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.07.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.07.jpg",
+                            name: "18*24cm, Cachan 2, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.08.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.08.jpg",
+                            name: "18*24cm, Face à la gare Montparnasse, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.9.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.9.jpg",
+                            name: "18*24cm, Paris, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.10.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.10.jpg",
+                            name: "18*24cm, Cergy 1, 2015",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.11.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.11.jpg",
+                            name: "18*24cm, Cergy 2, 2015",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.12.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.12.jpg",
+                            name: "18*24cm, Cergy 3, 2015",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.13.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.13.jpg",
+                            name: "18*24cm, Cergy 4, 2015",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.14.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.14.jpg",
+                            name: "18*24cm, Clamart 2, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.15.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.15.jpg",
+                            name: "18*24cm, Clamart 3, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.16.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.16.jpg",
+                            name: "18*24cm, Villebon Sur Yvette 1, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.17.jpg",
+                            thumbnails: "/assets/img/jardinieres/jardinieres.17.jpg",
+                            name: "18*24cm, Villebon Sur Yvette 2, 2020",
+                            width: 1.5,
+                            height: 1
+                        },
+                        ]
+                    }
+                },
+            ]
+        },
+
+        /*
+        * Paintings
+        */
+        {
+            name: "paintings",
+            pages: [
+
+                /*
+                * Voies rapides
+                */
+                {
+                    name: "Voies rapides",
+                    path: "/voies-rapides",
+                    gallery: {
+                        type: "image",
+                        images: Array.from({length: 4}, (item, index) => ({
+                            name: "",
+                            src: `/assets/img/voies/voies.rapides.${index+1}.jpg`,
+                            thumbnails: `/assets/img/voies/thumbs/voies.rapides.${index+1}.jpg`,
+                            width: 1,
+                            height: 1
+                        }))
+                    }
+                },
+
+                /*
+                * Paysages
+                */
+                {
+                    name: "Paysages",
+                    path: "/paysages",
+                    gallery: {
+                        type: "image",
+                        images: [{
+                            name: "",
+                            src: "/assets/img/paysage/paysage1.jpg",
+                            thumbnails: "/assets/img/paysage/thumbs/paysage1.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "Herbes, 2018, 67x77cm",
+                            src: "/assets/img/paysage/paysage2.jpg",
+                            thumbnails: "/assets/img/paysage/thumbs/paysage2.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "Paysage, 2018, 68x40cm",
+                            src: "/assets/img/paysage/paysage3.jpg",
+                            thumbnails: "/assets/img/paysage/thumbs/paysage3.jpg",
+                            width: 1,
+                            height: 1
+                        }, {
+                            name: "Route 5, 2018, 76x82cm",
+                            src: "/assets/img/paysage/paysage4.jpg",
+                            thumbnails: "/assets/img/paysage/thumbs/paysage4.jpg",
+                            width: 1,
+                            height: 1
+                        }]
+                    }
+                },
+
+                /*
+                * Road pictures
+                */
+                {
+                    name: "Road Pictures",
+                    path: "/road-pictures",
+                    gallery: {
+                        type: "image",
+                        images: Array.from({length: 4}, (item, index) => ({
+                            name: "",
+                            src: `/assets/img/road/road${index+1}.jpg`,
+                            thumbnails: `/assets/img/road/thumbs/road${index+1}.jpg`,
+                            width: 1,
+                            height: 1
+                        }))
+                    }
+                },
+
+            ]
+        },
+
+        /*
+        * Commissions
+        */
+        {
+            name: "commissions",
+            pages: [
+
+                /*
+                * Voies rapides
+                */
+                {
+                    name: "Revues Polymorphes",
+                    path: "/polymorphes",
+                    blocks: polymorpheBlocks
+                },
+
+                /*
+                * Paysages
+                */
+                {
+                    name: "The Big Nowhere",
+                    path: "/the-big-nowhere",
+                    blocks: [{
+                        paragraph: <>
+                            Peinture murale réalisée en 2019 dans les bureaux parisiens de la start-up FrontApp.
+                            The Big Nowhere est le titre d’un roman de James Ellroy se passant en Californie.
+                            <br/><br/>
+                            Ce titre est devenu mon inspiration pour ce projet puisque la start up FrontApp est en grande partie basée à San Francisco.
+                        </>,
+                        images: [{
+                            name: "The Big Nowhere",
+                            src: "/assets/img/nowhere/the.big.nowhere.1.jpg"
+                        }]
+                    }, {
+                        paragraph: <>
+                            Je me suis demandée à quoi ressemblerait ce « grand nul part », ce lieu qui n’existe que dans nos imaginations.
+                            J’ai ainsi réalisé ce paysage, à la limite de l’abstraction reprenant certains codes du rêve américain : un palmier, une piscine et une pelouse.
+                        </>,
+                        images: [{
+                            name: "The Big Nowhere",
+                            src: "/assets/img/nowhere/the.big.nowhere.2.jpg"
+                        }]
+                    }, {
+                        images: [{
+                            name: "The Big Nowhere",
+                            src: "/assets/img/nowhere/the.big.nowhere.3.jpg"
+                        }, {
+                            name: "The Big Nowhere",
+                            src: "/assets/img/nowhere/the.big.nowhere.4.jpg"
+                        }]
+                    }]
+                }
+            ]
+        },
+
+        /*
+        * Views
+        */
+        {
+            name: "views",
+            path: "/views",
+            gallery: {
+                type: "image",
+                images: [{
+                    name: "DNSEP, 2018",
+                    src: "/assets/img/vues/vues.1.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.1.jpg",
+                    width: 1,
+                    height: 1
+                }, {
+                    name: "DNSEP, 2018",
+                    src: "/assets/img/vues/vues.2.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.2.jpg",
+                    width: 1,
+                    height: 1
+                }, {
+                    name: "DNSEP, 2018",
+                    src: "/assets/img/vues/vues.3.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.3.jpg",
+                    width: 1,
+                    height: 1
+                }, {
+                    name: "DNSEP, 2018",
+                    src: "/assets/img/vues/vues.4.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.4.jpg",
+                    width: 1,
+                    height: 1
+                }, {
+                    name: "MASSIVE GROUPE SHOW, La rotonde, 2018",
+                    src: "/assets/img/vues/vues.5.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.5.jpg",
+                    width: 1,
+                    height: 1
+                }, {
+                    name: "La belle vie, l’amour, 2016",
+                    src: "/assets/img/vues/vues.6.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.6.jpg",
+                    width: 1,
+                    height: 1
+                }, {
+                    name: "Les habitants, galeries des marches, 2015",
+                    src: "/assets/img/vues/vues.7.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.7.jpg",
+                    width: 1,
+                    height: 1
+                }]
+            }
+        },
+
+
+        /*
+        * About
+        */
+        {
+            name: "About",
+            path: "/about",
+            component: <About/>
+        }
 
     /*
-     * Views
-     */
-    {
-        name: "views",
-        path: "/views",
-        blocks: []
-    },
-
-
-    /*
-    * About
+    * Sections End.
     */
-    {
-        name: "About",
-        path: "/about",
-        blocks: []
-    }]
+    ]
 };
 
 export default config;

@@ -5,7 +5,7 @@
 export type TConfig = {
     name: string;
     sections: TSection[];
-    socials: TSocials;
+    socials?: TSocials;
 };
 
 export type TSection = TPage | TPageList;
@@ -21,7 +21,7 @@ export const isPageList = (variableToCheck: TSection): variableToCheck is TPageL
 export const isPage = (variableToCheck: TSection): variableToCheck is TPage =>
   (variableToCheck as TPage).path !== undefined;
 
-export type TPage = TGalleryPage | TBlockPage;
+export type TPage = TGalleryPage | TBlockPage | TComponentPage;
 
 type TPageBase = {
     name: string;
@@ -43,18 +43,39 @@ type TBlockPage = TPageBase & {
 export const isBlockPage = (variableToCheck: TPage): variableToCheck is TBlockPage =>
   (variableToCheck as TBlockPage).blocks !== undefined;
 
+
+type TComponentPage = TPageBase & {
+  component: JSX.Element;
+};
+
+export const isComponentPage = (variableToCheck: TPage): variableToCheck is TComponentPage =>
+(variableToCheck as TComponentPage).component !== undefined;
+
+
 export type TGallery = {
+    type: "photo";
+    maxWidthCarousel: string;
     images: TImageGallery[]
+} | {
+   type: "image";
+   images: TImageGallery[]
 }
+
+export const isPhotoGallery = (variableToCheck: TGallery): variableToCheck is TGallery =>
+(variableToCheck as TGallery).type === "photo";
+
 
 export type TImage = {
     name: string;
     src: string;
+    width?: string
 
 }
 
-type TImageGallery = TImage & {
-  thumbnails?: string;
+export type TImageGallery = {
+  name: string;
+  src: string;
+  thumbnails: string;
   width: number;
   height: number;
 }

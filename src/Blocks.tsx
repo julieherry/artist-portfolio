@@ -5,7 +5,7 @@ import { TBlock, TImage } from "./types";
 const carouselStyles: CarouselStyles = {
     container() {
         return {
-            maxWidth: "50rem",
+            maxWidth: "100rem",
             maxHeight: "100rem"
         }
     }
@@ -37,7 +37,7 @@ export default function Blocks ({blocks}: {blocks: TBlock[]}) {
 
     return <div className="page">
         {blocks.map((block, i) => (
-            <div key={`block-${i}`} className={(i+1) % 2 ? "block" : "block reverse"} >
+            <div key={`block-${i}`} className={getBlockClassName(block, i)} >
                 {block.paragraph && 
                     <p>
                         {block.paragraph}
@@ -50,6 +50,7 @@ export default function Blocks ({blocks}: {blocks: TBlock[]}) {
                         <img onClick={(event) => {
                                 openLightbox(event, {index: currentImageId});
                             }}
+                            width={image.width}
                             alt={image.name}
                             key={`image-${imageId}`}
                             src={image.src}
@@ -77,4 +78,22 @@ export default function Blocks ({blocks}: {blocks: TBlock[]}) {
             ) : null}
         </ModalGateway>
     </div>
+}
+
+function getBlockClassName(block: TBlock, index: number) {
+    let className = "block";
+
+    if ((index+1) % 2)
+        className += " reverse";
+
+    let elements = 0;
+    if (block.paragraph)
+        elements++;
+    
+    if (block.images)
+        elements += block.images.length;
+
+    if (elements === 1)
+        className += " unique";
+    return className;
 }

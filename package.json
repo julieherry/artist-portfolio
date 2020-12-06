@@ -10,8 +10,10 @@
     "@types/node": "^12.19.8",
     "@types/react": "^16.14.2",
     "@types/react-dom": "^16.9.10",
+    "@types/react-image-gallery": "^1.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-image-gallery": "^1.0.8",
     "react-images": "^1.1.7",
     "react-photo-gallery": "^8.0.0",
     "react-router-dom": "^5.2.0",
@@ -25,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
-    "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
+    "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
+    "release": "npm run build && cp ./build/index.html ./build/200.html && cp ./build/* ../julieherry.github.io"
   },
   "eslintConfig": {
     "extends": [
