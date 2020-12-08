@@ -1,0 +1,39 @@
+strong {
+    font-weight: 700;
+}
+
+.presentation {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.presentation > div {
+    padding: 2rem;
+}
+
+p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.expositions {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin-top: 10rem;
+    text-align: justify;
+}
+
+.expositions > h1 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.expositions > h2 {
+    margin-top: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}

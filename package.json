@@ -28,7 +28,7 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
-    "release": "npm run build && cp ./build/index.html ./build/200.html && cp ./build/* ../julieherry.github.io"
+    "release": "npm run build && (cd ../julieherry.github.io/ && rm -r assets/* road/* static/*) && cp -r ./build/ ../julieherry.github.io"
   },
   "eslintConfig": {
     "extends": [

@@ -33,7 +33,7 @@ export default function Blocks ({blocks}: {blocks: TBlock[]}) {
 
     useEffect(() => {
         setImages(blocks.flatMap(block => block.images || []));
-    }, []);
+    }, [blocks]);
 
     return <div className="page">
         {blocks.map((block, i) => (
