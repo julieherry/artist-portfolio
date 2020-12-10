@@ -24,8 +24,9 @@ You will also see any lint errors in the console.
 
 ### Deployment 
 
-7. Update the CNAME with your domain.
+7. `npm run build`
 
-8. `npm run deploy`
+8. Update the CNAME with your domain and copy to build folder.
 
+9. Use Netlify/Vercel/Surge/Github pages to deploy
 

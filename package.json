@@ -28,7 +28,8 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
-    "release": "npm run build && (cd ../julieherry.github.io/ && rm -r assets/* road/* static/*) && cp -r ./build/ ../julieherry.github.io"
+    "prerelease": "npm run build && cp CNAME ./build && cp build/index.html build/404.html && netlify deploy ",
+    "release-to-github": "(rm -r ../julieherry.github.io/assets/**/* ../julieherry.github.io/static/**/*) && cp -r ./build/ ../julieherry.github.io"
   },
   "eslintConfig": {
     "extends": [

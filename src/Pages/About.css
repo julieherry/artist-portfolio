@@ -4,10 +4,15 @@ strong {
 
 .presentation {
     display: flex;
+    align-items: center;
     margin-top: 1rem;
 }
 
 .presentation > div {
+    padding: 2rem;
+}
+
+.presentation > img {
     padding: 2rem;
 }
 
@@ -19,11 +24,11 @@ p {
 }
 
 .expositions {
+    padding: 2rem;
     width: 50%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-weight: 300;
     font-size: 1.4rem;
-    margin-top: 10rem;
     text-align: justify;
 }
 

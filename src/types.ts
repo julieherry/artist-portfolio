@@ -61,9 +61,6 @@ export type TGallery = {
    images: TImageGallery[]
 }
 
-export const isPhotoGallery = (variableToCheck: TGallery): variableToCheck is TGallery =>
-(variableToCheck as TGallery).type === "photo";
-
 
 export type TImage = {
     name: string;

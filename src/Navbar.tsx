@@ -34,6 +34,7 @@ export default function Navbar() {
                 <NavLink
                     activeClassName="active"
                     onClick={() => setIsOpen(false)}
+                    exact
                     to="/"
                 >{config.name}</NavLink>
             </span>

@@ -1,7 +1,8 @@
 import React from "react";
 import { isBlockPage, isGalleryPage, TPage } from "./types";
-import Gallery from "./Gallery";
 import Blocks from "./Blocks";
+
+import Gallery from "./Gallery";
 import ImageGallery from "./ImageGallery";
 import "./Page.css";
 
@@ -14,7 +15,6 @@ export default function Page(page: TPage) {
         }
 
         return <ImageGallery {...page.gallery} />
-
     }
 
     if (isBlockPage(page)) {
@@ -35,8 +35,9 @@ type PageWrapperProps = {
 }
 
 function PageWrapper ({title, name, children}: PageWrapperProps): JSX.Element {
+    const h1 = title || name;
     return <div className="container">
-        <h1>{title || name}</h1>
+        {h1 && <h1>{h1}</h1>}
         {children}
     </div>
 }

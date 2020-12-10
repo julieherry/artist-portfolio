@@ -72,7 +72,7 @@ const config: TConfig =  {
             gallery: {
                 type: "photo",
                 maxWidthCarousel: "30rem",
-                images: Array.from({length: 134}, (item, index) => ({
+                images: Array.from({length: 136}, (_, index) => ({
                         name: "A4, feutre sur papier, 21x29,7cm",
                         src: `/assets/img/a4/a4.${index+1}.jpg`,
                         thumbnails: `/assets/img/a4/thumbs/a4.${index+1}.jpg`,
@@ -659,63 +659,63 @@ const config: TConfig =  {
                         images: [{
                             src: "/assets/img/closer/chez-john-doe.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-john-doe.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2017",
+                            name: "50x65cm, 2017, Techniques mixtes sur papier", 
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-kristen-stewart.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-kristen-stewart.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2017, Chez Kristen Stewart",
+                            name: "50x65cm, 2017, Techniques mixtes sur papier, Chez Kristen Stewart",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-justin-bieber-1.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-justin-bieber-1.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2016, Chez Justin Bieber",
+                            name: "50x65cm, 2016, Techniques mixtes sur papier, Chez Justin Bieber",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-justin-bieber-2.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-justin-bieber-2.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2015, Chez Justin Bieber",
+                            name: "50x65cm, 2015, Techniques mixtes sur papier, Chez Justin Bieber",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-britney-spears.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-britney-spears.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2017, Chez Britney Spears",
+                            name: "50x65cm, 2017, Techniques mixtes sur papier, Chez Britney Spears",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-johnny-depp-et-vanessa-paradis.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-johnny-depp-et-vanessa-paradis.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2018, Chez Johnny Depp et Vannessa Paradis",
+                            name: "50x65cm, 2018, Techniques mixtes sur papier, Chez Johnny Depp et Vannessa Paradis",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-leonardo-dicaprio.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-leonardo-dicaprio.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2018, Chez Leonardo Dicaprio",
+                            name: "50x65cm, 2018, techniques mixtes sur papier, Chez Leonardo Dicaprio",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-paris-hilton.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-paris-hilton.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2017, Chez Paris Hilton",
+                            name: "50x65cm, 2017, techniques mixtes sur papier, Chez Paris Hilton",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-brad-pitt-et-angelina-jolie.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-brad-pitt-et-angelina-jolie.jpg",
-                            name: "techniques mixtes sur papier, 50x65cm, 2018, Chez Brad Pitt et Angelina Jolie",
+                            name: "50x65cm, 2018, Techniques mixtes sur papier, Chez Brad Pitt et Angelina Jolie",
                             width: 1.3,
                             height: 1
                         }
@@ -786,7 +786,7 @@ const config: TConfig =  {
                     path: "/haies",
                     gallery: {
                         type: "image",
-                        images: Array.from({length: 11}, (item, index) => ({
+                        images: Array.from({length: 11}, (_, index) => ({
                             name: `Haies ${index+1}, techniques mixtes sur papier, 20x14cm, 2014`,
                             src: `/assets/img/haies/haie${index+1}.jpg`,
                             thumbnails: `/assets/img/haies/thumbs/haie${index+1}.jpg`,
@@ -797,23 +797,23 @@ const config: TConfig =  {
                 },
 
                 /*
-                * 758 Evergreen Terrace
+                * 742 Evergreen Terrace
                 */
                 {
-                    name: "758 Evergreen Terrace",
-                    path: "/758-evergreen-terrace",
+                    name: "742 Evergreen Terrace",
+                    path: "/742-evergreen-terrace",
                     gallery: {
                         type: "image",
                         images: [{
                             name: "Techniques mixtes sur papier, 50x65cm, 2014",
-                            src: "/assets/img/758-evergreen-terrace/758-evergreen-terrace-1.jpg",
-                            thumbnails: "/assets/img/758-evergreen-terrace/thumbs/758-evergreen-terrace-1.jpg",
+                            src: "/assets/img/742-evergreen-terrace/742-evergreen-terrace-1.jpg",
+                            thumbnails: "/assets/img/742-evergreen-terrace/thumbs/742-evergreen-terrace-1.jpg",
                             width: 1,
                             height: 1
                         }, {
                             name: "Vue de l’exposition Utopies fluviales à Nanterres, 2017",
-                            src: "/assets/img/758-evergreen-terrace/758-evergreen-terrace-2.jpg",
-                            thumbnails: "/assets/img/758-evergreen-terrace/thumbs/758-evergreen-terrace-2.jpg",
+                            src: "/assets/img/742-evergreen-terrace/742-evergreen-terrace-2.jpg",
+                            thumbnails: "/assets/img/742-evergreen-terrace/thumbs/742-evergreen-terrace-2.jpg",
                             width: 1,
                             height: 1
                         }]
@@ -828,7 +828,7 @@ const config: TConfig =  {
                     path: "/au-beau-milieu-d-un-reve",
                     gallery: {
                         type: "image",
-                        images: Array.from({length: 2}, (item, index) => ({
+                        images: Array.from({length: 2}, (_, index) => ({
                             name: `Techniques mixtes sur carton, 50x65cm, 2015`,
                             src: `/assets/img/reve/0${index+1}b.jpg`,
                             thumbnails: `/assets/img/reve/thumbs/0${index+1}b.jpg`,
@@ -851,119 +851,119 @@ const config: TConfig =  {
                         {
                             src: "/assets/img/jardinieres/jardinieres.01.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.01.jpg",
-                            name: "18*24cm, Sainte Feyre 1, 2020",
+                            name: "Sainte Feyre 1, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.02.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.02.jpg",
-                            name: "18*24cm, Sainte Feyre 2, 2020",
+                            name: "Sainte Feyre 2, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.03.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.03.jpg",
-                            name: "18*24cm, Porte de Vanves, 2020",
+                            name: "Porte de Vanves, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.04.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.04.jpg",
-                            name: "18*24cm, Face à la gare de Guéret, 2020",
+                            name: "Face à la gare de Guéret, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.05.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.05.jpg",
-                            name: "18*24cm, Pantin, 2020",
+                            name: "Pantin, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.06.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.06.jpg",
-                            name: "18*24cm, Bagneux, 2020",
+                            name: "Bagneux, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.07.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.07.jpg",
-                            name: "18*24cm, Cachan 2, 2020",
+                            name: "Cachan 2, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.08.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.08.jpg",
-                            name: "18*24cm, Face à la gare Montparnasse, 2020",
+                            name: "Face à la gare Montparnasse, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.9.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.9.jpg",
-                            name: "18*24cm, Paris, 2020",
+                            name: "Paris, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.10.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.10.jpg",
-                            name: "18*24cm, Cergy 1, 2015",
+                            name: "Cergy 1, 18x24cm, Techniques mixtes sur papier, 2015",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.11.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.11.jpg",
-                            name: "18*24cm, Cergy 2, 2015",
+                            name: "Cergy 2, 18x24cm, Techniques mixtes sur papier, 2015",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.12.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.12.jpg",
-                            name: "18*24cm, Cergy 3, 2015",
+                            name: "Cergy 3, 18x24cm, Techniques mixtes sur papier, 2015",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.13.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.13.jpg",
-                            name: "18*24cm, Cergy 4, 2015",
+                            name: "Cergy 4, 18x24cm, Techniques mixtes sur papier, 2015",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.14.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.14.jpg",
-                            name: "18*24cm, Clamart 2, 2020",
+                            name: "Clamart 2, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.15.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.15.jpg",
-                            name: "18*24cm, Clamart 3, 2020",
+                            name: "18x24cm, Techniques mixtes sur papier, Clamart 3, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.16.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.16.jpg",
-                            name: "18*24cm, Villebon Sur Yvette 1, 2020",
+                            name: "Villebon Sur Yvette 1, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.17.jpg",
                             thumbnails: "/assets/img/jardinieres/jardinieres.17.jpg",
-                            name: "18*24cm, Villebon Sur Yvette 2, 2020",
+                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.5,
                             height: 1
                         },
@@ -988,7 +988,7 @@ const config: TConfig =  {
                     path: "/voies-rapides",
                     gallery: {
                         type: "image",
-                        images: Array.from({length: 4}, (item, index) => ({
+                        images: Array.from({length: 4}, (_, index) => ({
                             name: "",
                             src: `/assets/img/voies/voies.rapides.${index+1}.jpg`,
                             thumbnails: `/assets/img/voies/thumbs/voies.rapides.${index+1}.jpg`,
@@ -1042,7 +1042,7 @@ const config: TConfig =  {
                     path: "/road-pictures",
                     gallery: {
                         type: "image",
-                        images: Array.from({length: 4}, (item, index) => ({
+                        images: Array.from({length: 4}, (_, index) => ({
                             name: "",
                             src: `/assets/img/road/road${index+1}.jpg`,
                             thumbnails: `/assets/img/road/thumbs/road${index+1}.jpg`,
