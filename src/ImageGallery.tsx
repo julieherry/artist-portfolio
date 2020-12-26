@@ -7,11 +7,9 @@ export default function IGallery(gallery: TGallery) {
     return (
         <ImageGallery 
             items={gallery.images.map((image, index) => {
-                // Fix bug in react-image-gallery with thumbnails.
-                const mod = (index + gallery.images.length + 1) % (gallery.images.length);
                 return {
                     original: image.src,
-                    description: gallery.images[mod].name,
+                    description: image.name,
                     thumbnail: image.thumbnails,
                 }
             })}

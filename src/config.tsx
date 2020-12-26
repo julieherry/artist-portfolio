@@ -77,7 +77,7 @@ const config: TConfig =  {
                         src: `/assets/img/a4/a4.${index+1}.jpg`,
                         thumbnails: `/assets/img/a4/thumbs/a4.${index+1}.jpg`,
                         width: 1,
-                        height: 1.3
+                        height: 1.4
                 }))
             }
         },
@@ -101,548 +101,548 @@ const config: TConfig =  {
                         images: [{
                             src: "/assets/img/fenetres/fenetre_0.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_0.jpg",
-                            name: "A4, Par ma fenêtre 1, feutre sur papier, 21x29,7cm",
+                            name: "Par ma fenêtre 1, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_1.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_1.jpg",
-                            name: "A4, Par ma fenêtre 2, feutre sur papier, 21x29,7cm",
+                            name: "Par ma fenêtre 2, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_2.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_2.jpg",
-                            name: "A4, Par ma fenêtre 3, feutre sur papier, 21x29,7cm",
+                            name: "Par ma fenêtre 3, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_3.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_3.jpg",
-                            name: "A4, Par la fenêtre de Safouane, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Safouane, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_4.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_4.jpg",
-                            name: "A4, Par la fenêtre de Sarah-Louise, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Sarah-Louise, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_5.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_5.jpg",
-                            name: "A4, Par la fenêtre de Simon, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Simon, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_6.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_6.jpg",
-                            name: "A4, Par la fenêtre de M'Hand et Charlotte, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de M'Hand et Charlotte, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_7.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_7.jpg",
-                            name: "A4, Par la fenêtre d'Antoine C., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Antoine C., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_8.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_8.jpg",
-                            name: "A4, Par la fenêtre de Bill, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Bill, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_9.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_9.jpg",
-                            name: "A4, Par la fenêtre de Pierre, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Pierre, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_10.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_10.jpg",
-                            name: "A4, Par la fenêtre de Delphes, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Delphes, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_11.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_11.jpg",
-                            name: "A4, Par la fenêtre de Marie, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Marie, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_12.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_12.jpg",
-                            name: "A4, Par la fenêtre de Jerry, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Jerry, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_13.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_13.jpg",
-                            name: "A4, Par la fenêtre de Laure-Anne et Arnaud, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Laure-Anne et Arnaud, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_14.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_14.jpg",
-                            name: "A4, Par la fenêtre de Jade, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Jade, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_15.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_15.jpg",
-                            name: "A4, Par la fenêtre de Alicia, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Alicia, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_16.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_16.jpg",
-                            name: "A4, Par la fenêtre de Camille H., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Camille H., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_17.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_17.jpg",
-                            name: "A4, Par la fenêtre de Roberto, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Roberto, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_18.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_18.jpg",
-                            name: "A4, Par la fenêtre de Yosra, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Yosra, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_19.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_19.jpg",
-                            name: "A4, Par la fenêtre d'Ines, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Ines, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_20.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_20.jpg",
-                            name: "A4, Par la fenêtre de Jean-Daniel, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Jean-Daniel, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_21.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_21.jpg",
-                            name: "A4, Par la fenêtre d'Etienne, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Etienne, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_22.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_22.jpg",
-                            name: "A4, Par la fenêtre de Christian et Laurence, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Christian et Laurence, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_23.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_23.jpg",
-                            name: "A4, Par la fenêtre de Pauline L., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Pauline L., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_24.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_24.jpg",
-                            name: "A4, Par la fenêtre d'Etienne A., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Etienne A., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_25.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_25.jpg",
-                            name: "A4, Par la fenêtre de Karoline, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Karoline, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_26.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_26.jpg",
-                            name: "A4, Par la fenêtre de Clotilde, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Clotilde, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_27.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_27.jpg",
-                            name: "A4, Par la fenêtre de Aurelien, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Aurelien, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_28.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_28.jpg",
-                            name: "A4, Par la fenêtre de Lea et Romain, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Lea et Romain, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_29.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_29.jpg",
-                            name: "A4, Par la fenêtre de Marion D., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Marion D., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_30.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_30.jpg",
-                            name: "A4, Par la fenêtre de Caroline, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Caroline, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_31.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_31.jpg",
-                            name: "A4, Par la fenêtre de Pauline B., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Pauline B., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_32.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_32.jpg",
-                            name: "A4, Par la fenêtre d'Eleonore, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Eleonore, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_33.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_33.jpg",
-                            name: "A4, Par la fenêtre de Melchior, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Melchior, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_34.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_34.jpg",
-                            name: "A4, Par la fenêtre d'Anouk, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Anouk, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_35.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_35.jpg",
-                            name: "A4, Par la fenêtre de Maxime et Olivier, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Maxime et Olivier, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_36.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_36.jpg",
-                            name: "A4, Par ma fenêtre 4, feutre sur papier, 21x29,7cm",
+                            name: "Par ma fenêtre 4, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_37.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_37.jpg",
-                            name: "A4, Par la fenêtre de Kevin, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Kevin, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_38.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_38.jpg",
-                            name: "A4, Par la fenêtre de Julien, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Julien, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_39.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_39.jpg",
-                            name: "A4, Par la fenêtre de Pierre-Antoine, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Pierre-Antoine, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_40.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_40.jpg",
-                            name: "A4, Par la fenêtre d'Alexandre L., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Alexandre L., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_41.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_41.jpg",
-                            name: "A4, Par la fenêtre de Yannick, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Yannick, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_42.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_42.jpg",
-                            name: "A4, Par la fenêtre de Cecilia, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Cecilia, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_43.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_43.jpg",
-                            name: "A4, Par la fenêtre de Maud, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Maud, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_44.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_44.jpg",
-                            name: "A4, Par la fenêtre de Gael, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Gael, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_45.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_45.jpg",
-                            name: "A4, Par la fenêtre de Simon B., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Simon B., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_46.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_46.jpg",
-                            name: "A4, Par la fenêtre de Lena, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Lena, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_47.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_47.jpg",
-                            name: "A4, Par la fenêtre de Terah, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Terah, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_48.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_48.jpg",
-                            name: "A4, Par la fenêtre de Carole, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Carole, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_49.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_49.jpg",
-                            name: "A4, Par la fenêtre de Océane, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Océane, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_50.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_50.jpg",
-                            name: "A4, Par la fenêtre de Jessica, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Jessica, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_51.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_51.jpg",
-                            name: "A4, Par la fenêtre de Fanny, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Fanny, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_52.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_52.jpg",
-                            name: "A4, Par la fenêtre de Camille M., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Camille M., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_53.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_53.jpg",
-                            name: "A4, Par la fenêtre d'Alexandra, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Alexandra, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_54.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_54.jpg",
-                            name: "A4, Par la fenêtre de Lina, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Lina, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_55.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_55.jpg",
-                            name: "A4, Par la fenêtre de Sofiane, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Sofiane, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_56.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_56.jpg",
-                            name: "A4, Par la fenêtre de Mathyld et Jef, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Mathyld et Jef, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_57.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_57.jpg",
-                            name: "A4, Par la fenêtre d'Antoine S., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Antoine S., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_58.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_58.jpg",
-                            name: "A4, Par la fenêtre de Fagtice, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Fagtice, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_59.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_59.jpg",
-                            name: "A4, Par la fenêtre de Felix, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Felix, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_60.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_60.jpg",
-                            name: "A4, Par la fenêtre d'Anna, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Anna, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_61.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_61.jpg",
-                            name: "A4, Par la fenêtre de Celeste, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Celeste, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_62.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_62.jpg",
-                            name: "A4, Par la fenêtre d'Antoine V., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Antoine V., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_63.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_63.jpg",
-                            name: "A4, Par la fenêtre de Claire L., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Claire L., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_64.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_64.jpg",
-                            name: "A4, Par la fenêtre de Camille R., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Camille R., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_65.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_65.jpg",
-                            name: "A4, Par la fenêtre de Claire D., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Claire D., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_66.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_66.jpg",
-                            name: "A4, Par la fenêtre d'Anthony, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre d'Anthony, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_67.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_67.jpg",
-                            name: "A4, Par la fenêtre de James, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de James, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_68.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_68.jpg",
-                            name: "A4, Par la fenêtre de Marion B., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Marion B., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_69.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_69.jpg",
-                            name: "A4, Par la fenêtre de Louis, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Louis, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_70.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_70.jpg",
-                            name: "A4, Par la fenêtre de Mathilde, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Mathilde, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_71.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_71.jpg",
-                            name: "A4, Par la fenêtre de Camille M., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Camille M., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_72.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_72.jpg",
-                            name: "A4, Par la fenêtre de Julie, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Julie, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_73.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_73.jpg",
-                            name: "A4, Par la fenêtre de Caroline C., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Caroline C., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_74.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_74.jpg",
-                            name: "A4, Par la fenêtre de Melody, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Melody, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_75.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_75.jpg",
-                            name: "A4, Par la fenêtre de Sacha, feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Sacha, feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_76.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_76.jpg",
-                            name: "A4, Par la fenêtre de Camille D., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Camille D., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         },
                         {
                             src: "/assets/img/fenetres/fenetre_77.jpg",
                             thumbnails: "/assets/img/fenetres/thumbs/fenetre_77.jpg",
-                            name: "A4, Par la fenêtre de Camille A., feutre sur papier, 21x29,7cm",
+                            name: "Par la fenêtre de Camille A., feutre sur papier, 21x29,7cm",
                             width: 1,
-                            height: 1.3
+                            height: 1.4
                         }]
                     }
                 },
@@ -659,63 +659,63 @@ const config: TConfig =  {
                         images: [{
                             src: "/assets/img/closer/chez-john-doe.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-john-doe.jpg",
-                            name: "50x65cm, 2017, Techniques mixtes sur papier", 
+                            name: "Techniques mixtes sur papier, 50x65cm, 2017", 
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-kristen-stewart.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-kristen-stewart.jpg",
-                            name: "50x65cm, 2017, Techniques mixtes sur papier, Chez Kristen Stewart",
+                            name: "Chez Kristen Stewart, Techniques mixtes sur papier, 50x65cm, 2017",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-justin-bieber-1.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-justin-bieber-1.jpg",
-                            name: "50x65cm, 2016, Techniques mixtes sur papier, Chez Justin Bieber",
+                            name: "Chez Justin Bieber, Techniques mixtes sur papier, 50x65cm, 2016",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-justin-bieber-2.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-justin-bieber-2.jpg",
-                            name: "50x65cm, 2015, Techniques mixtes sur papier, Chez Justin Bieber",
+                            name: "Chez Justin Bieber, Techniques mixtes sur papier, 50x65cm, 2015",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-britney-spears.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-britney-spears.jpg",
-                            name: "50x65cm, 2017, Techniques mixtes sur papier, Chez Britney Spears",
+                            name: "Chez Britney Spears, Techniques mixtes sur papier, 50x65cm, 2017",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-johnny-depp-et-vanessa-paradis.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-johnny-depp-et-vanessa-paradis.jpg",
-                            name: "50x65cm, 2018, Techniques mixtes sur papier, Chez Johnny Depp et Vannessa Paradis",
+                            name: "Chez Johnny Depp et Vannessa Paradis, Techniques mixtes sur papier, 50x65cm, 2018",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-leonardo-dicaprio.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-leonardo-dicaprio.jpg",
-                            name: "50x65cm, 2018, techniques mixtes sur papier, Chez Leonardo Dicaprio",
+                            name: "Chez Leonardo Dicaprio, Techniques mixtes sur papier,50x65cm, 2018",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-paris-hilton.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-paris-hilton.jpg",
-                            name: "50x65cm, 2017, techniques mixtes sur papier, Chez Paris Hilton",
+                            name: "Chez Paris Hilton, techniques mixtes sur papier, 50x65cm, 2017",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/closer/chez-brad-pitt-et-angelina-jolie.jpg",
                             thumbnails: "/assets/img/closer/thumbs/chez-brad-pitt-et-angelina-jolie.jpg",
-                            name: "50x65cm, 2018, Techniques mixtes sur papier, Chez Brad Pitt et Angelina Jolie",
+                            name: "Chez Brad Pitt et Angelina Jolie, Techniques mixtes sur papier, 50x65cm, 2018",
                             width: 1.3,
                             height: 1
                         }
@@ -850,123 +850,144 @@ const config: TConfig =  {
                         images: [
                         {
                             src: "/assets/img/jardinieres/jardinieres.01.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.01.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.01.jpg",
                             name: "Sainte Feyre 1, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.02.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.02.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.02.jpg",
                             name: "Sainte Feyre 2, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.03.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.03.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.03.jpg",
                             name: "Porte de Vanves, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.04.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.04.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.04.jpg",
                             name: "Face à la gare de Guéret, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.05.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.05.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.05.jpg",
                             name: "Pantin, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.06.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.06.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.06.jpg",
                             name: "Bagneux, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.07.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.07.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.07.jpg",
                             name: "Cachan 2, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.08.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.08.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.08.jpg",
                             name: "Face à la gare Montparnasse, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
-                            src: "/assets/img/jardinieres/jardinieres.9.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.9.jpg",
+                            src: "/assets/img/jardinieres/jardinieres.09.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.09.jpg",
                             name: "Paris, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.10.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.10.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.10.jpg",
                             name: "Cergy 1, 18x24cm, Techniques mixtes sur papier, 2015",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.11.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.11.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.11.jpg",
                             name: "Cergy 2, 18x24cm, Techniques mixtes sur papier, 2015",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.12.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.12.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.12.jpg",
                             name: "Cergy 3, 18x24cm, Techniques mixtes sur papier, 2015",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.13.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.13.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.13.jpg",
                             name: "Cergy 4, 18x24cm, Techniques mixtes sur papier, 2015",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.14.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.14.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.14.jpg",
                             name: "Clamart 2, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.15.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.15.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.15.jpg",
                             name: "18x24cm, Techniques mixtes sur papier, Clamart 3, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.16.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.16.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.16.jpg",
                             name: "Villebon Sur Yvette 1, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.17.jpg",
-                            thumbnails: "/assets/img/jardinieres/jardinieres.17.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.17.jpg",
                             name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
-                            width: 1.5,
+                            width: 1.3,
                             height: 1
                         },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.18.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.18.jpg",
+                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.19.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.19.jpg",
+                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.20.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.20.jpg",
+                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
+                            width: 1.3,
+                            height: 1
+                        }
                         ]
                     }
                 },
@@ -1119,6 +1140,12 @@ const config: TConfig =  {
             gallery: {
                 type: "image",
                 images: [{
+                    name: "Saisons Zero, 2020",
+                    src: "/assets/img/vues/vues.0.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.0.jpg",
+                    width: 1,
+                    height: 1
+                }, {
                     name: "DNSEP, 2018",
                     src: "/assets/img/vues/vues.1.jpg",
                     thumbnails: "/assets/img/vues/thumbs/vues.1.jpg",

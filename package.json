@@ -28,8 +28,8 @@
     "eject": "react-scripts eject",
     "format": "prettier --write src/**/*.ts{,x}",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}",
-    "prerelease": "npm run build && cp CNAME ./build && cp build/index.html build/404.html && netlify deploy ",
-    "release-to-github": "(rm -r ../julieherry.github.io/assets/**/* ../julieherry.github.io/static/**/*) && cp -r ./build/ ../julieherry.github.io"
+    "staging": "npm run build && cp _redirects ./build/_redirects && cp CNAME ./build && cp build/index.html build/404.html && netlify deploy --dir=build --prod -o",
+    "prod": "rm -r ../julieherry.github.io/assets/**/* ../julieherry.github.io/static/**/* && cp -r ./build/ ../julieherry.github.io && cd ../julieherry.github.io && git add . && git commit -am \"$(date '+%Y-%m-%d %H:%M:%S')\" &&git push origin master"
   },
   "eslintConfig": {
     "extends": [
