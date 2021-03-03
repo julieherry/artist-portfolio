@@ -28,6 +28,26 @@ const polymorpheBlocks = [{
     }
 ];
 
+
+const missingPageBlock = [{
+    paragraph: <>
+        <p>
+            À partir du 5 mars 2021, exposition collective « La page manquante » au centre Wallonie-Bruxelles, sur une proposition de Renaud Auguste Dormeuil. 
+        </p>
+        <p>
+            « Il arrive, en consultant un catalogue d’exposition ou une revue artistique, qu’on ait le sentiment que quelque chose manque : une référence que l’on considère nécessaire, ou encore l’oubli d’une œuvre qui nous paraît importante. Parfois même, à la lecture de certains ouvrages, on se dit qu’on y avait notre place en tant qu’artiste. Au-delà des raisons de ce manque, le projet de La page manquante propose de réparer cette infâme injustice ! »
+        </p>
+        <p>
+        <a style={{textDecoration: "underline"}} href="https://www.cwb.fr/agenda/la-page-manquante-renaud-auguste-dormeuil-expo" target="_blank" rel="noreferrer noopener">Plus d’info ici</a>
+        </p> 
+    </>,
+    images: [{
+        name: "La page manquante",
+        src: "/assets/img/missingpage/flyers.jpg",
+        width: "300px"
+    }]
+}];
+
 const config: TConfig =  {
     name: "JULIE HERRY",
     socials: {
@@ -37,7 +57,7 @@ const config: TConfig =  {
     sections: [
 
         /*
-        * New
+        * Index
         */
         {
             name: "",
@@ -45,7 +65,7 @@ const config: TConfig =  {
             path: "/",
             blocks: [{
                 images: [{
-                    name: "The Big Nowhere",
+                    name: "julieherry.com",
                     src: "/assets/img/dessin-site.jpg",
                     width: "50rem"
                 }]
@@ -58,9 +78,9 @@ const config: TConfig =  {
         */
         {
             name: "new",
-            title: "Revue Polymorphe",
-            path: "/polymorphe",
-            blocks: polymorpheBlocks
+            title: "La page manquante",
+            path: "/new",
+            blocks: missingPageBlock
         },
 
         /*
@@ -72,10 +92,10 @@ const config: TConfig =  {
             gallery: {
                 type: "photo",
                 maxWidthCarousel: "30rem",
-                images: Array.from({length: 136}, (_, index) => ({
+                images: Array.from({length: 156}, (_, index) => ({
                         name: "A4, feutre sur papier, 21x29,7cm",
                         src: `/assets/img/a4/a4.${index+1}.jpg`,
-                        thumbnails: `/assets/img/a4/thumbs/a4.${index+1}.jpg`,
+                        thumbnails: `/assets/img/a4/a4.${index+1}.jpg`,
                         width: 1,
                         height: 1.4
                 }))
@@ -970,21 +990,21 @@ const config: TConfig =  {
                         {
                             src: "/assets/img/jardinieres/jardinieres.18.jpg",
                             thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.18.jpg",
-                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
+                            name: "Villebon Sur Yvette 4, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.19.jpg",
                             thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.19.jpg",
-                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
+                            name: "Villebon Sur Yvette 4, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.3,
                             height: 1
                         },
                         {
                             src: "/assets/img/jardinieres/jardinieres.20.jpg",
                             thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.20.jpg",
-                            name: "Villebon Sur Yvette 2, 18x24cm, Techniques mixtes sur papier, 2020",
+                            name: "Clamart 1, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.3,
                             height: 1
                         }
