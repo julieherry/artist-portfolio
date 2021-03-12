@@ -16,6 +16,16 @@ export default function About () {
 
             <h1>EXPOSITIONS COLLECTIVES</h1>
 
+            <h2>2021</h2>
+            <ul>
+                <li>La page manquante, Centre Wallonie Bruxelles, Paris</li>
+            </ul>
+
+            <h2>2020</h2>
+            <ul>
+                <li>Saisons Zéro, Roubaix</li>
+            </ul>
+
             <h2>2019</h2>
             <ul>
                 <li>Pocket Monsters Entrance, New York</li>

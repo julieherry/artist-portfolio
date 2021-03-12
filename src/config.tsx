@@ -32,7 +32,7 @@ const polymorpheBlocks = [{
 const missingPageBlock = [{
     paragraph: <>
         <p>
-            À partir du 5 mars 2021, exposition collective « La page manquante » au centre Wallonie-Bruxelles, sur une proposition de Renaud Auguste Dormeuil. 
+            Du 5 au 14 mars 2021, exposition collective « La page manquante » au centre Wallonie-Bruxelles, sur une proposition de Renaud Auguste Dormeuil. 
         </p>
         <p>
             « Il arrive, en consultant un catalogue d’exposition ou une revue artistique, qu’on ait le sentiment que quelque chose manque : une référence que l’on considère nécessaire, ou encore l’oubli d’une œuvre qui nous paraît importante. Parfois même, à la lecture de certains ouvrages, on se dit qu’on y avait notre place en tant qu’artiste. Au-delà des raisons de ce manque, le projet de La page manquante propose de réparer cette infâme injustice ! »
@@ -46,6 +46,16 @@ const missingPageBlock = [{
         src: "/assets/img/missingpage/flyers.jpg",
         width: "300px"
     }]
+}, {
+        images: [{
+            name: "La page manquante",
+            src: "/assets/img/missingpage/closer1.jpeg",
+            width: "200px"
+        }, {
+            name: "La page manquante",
+            src: "/assets/img/missingpage/closer2.jpeg",
+            width: "200px"
+        }]
 }];
 
 const config: TConfig =  {
@@ -1160,6 +1170,18 @@ const config: TConfig =  {
             gallery: {
                 type: "image",
                 images: [{
+                    name: "La page Manquante, Centre Wallonie Bruxelles, 2021",
+                    src: "/assets/img/vues/vues.8.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.8.jpg",
+                    width: 1,
+                    height: 1
+                },{
+                    name: "La page Manquante, Centre Wallonie Bruxelles, 2021",
+                    src: "/assets/img/vues/vues.9.jpg",
+                    thumbnails: "/assets/img/vues/thumbs/vues.9.jpg",
+                    width: 1,
+                    height: 1
+                },{
                     name: "Saisons Zero, 2020",
                     src: "/assets/img/vues/vues.0.jpg",
                     thumbnails: "/assets/img/vues/thumbs/vues.0.jpg",
