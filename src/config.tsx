@@ -28,7 +28,24 @@ const polymorpheBlocks = [{
     }
 ];
 
+const bisouTapeBlocks = [{
+    paragraph: <>
+        <p>Illustration des 3 premiers titres de la Bisoutape à écouter ici</p>
+        <iframe className="youtube"  src="https://www.youtube.com/embed/GSXhs67fu70" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    </>
+    
+}, {
+    images: [{
+        name: "Bisoutape",
+        src: "/assets/img/bisoutape/bisoutape.1.jpg"
+    }, {
+        name: "Bisoutape",
+        src: "/assets/img/bisoutape/bisoutape.2.jpg"
+    }]
+}]
 
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const missingPageBlock = [{
     paragraph: <>
         <p>
@@ -88,9 +105,9 @@ const config: TConfig =  {
         */
         {
             name: "new",
-            title: "La page manquante",
+            title: "Bisoutape",
             path: "/new",
-            blocks: missingPageBlock
+            blocks: bisouTapeBlocks
         },
 
         /*
@@ -1012,9 +1029,44 @@ const config: TConfig =  {
                             height: 1
                         },
                         {
-                            src: "/assets/img/jardinieres/jardinieres.20.jpg",
-                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.20.jpg",
-                            name: "Clamart 1, 18x24cm, Techniques mixtes sur papier, 2020",
+                            src: "/assets/img/jardinieres/jardinieres.21.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.21.jpg",
+                            name: "Charchilla, 18x24cm, Techniques mixtes sur papier, 2021",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.22.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.22.jpg",
+                            name: "Charcier, 18x24cm, Techniques mixtes sur papier, 2021",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardi3ieres.20.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.23.jpg",
+                            name: "Fresselines 1, 18x24cm, Techniques mixtes sur papier, 2020",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.24.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.24.jpg",
+                            name: "Gouzon, 18x24cm, Techniques mixtes sur papier, 2020",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.25.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.25.jpg",
+                            name: "Villebon sur Yvette, 18x24cm, Techniques mixtes sur papier, 2020",
+                            width: 1.3,
+                            height: 1
+                        },
+                        {
+                            src: "/assets/img/jardinieres/jardinieres.26.jpg",
+                            thumbnails: "/assets/img/jardinieres/thumbs/jardinieres.26.jpg",
+                            name: "Fresselines 2, 18x24cm, Techniques mixtes sur papier, 2020",
                             width: 1.3,
                             height: 1
                         }
@@ -1112,6 +1164,15 @@ const config: TConfig =  {
         {
             name: "commissions",
             pages: [
+
+                /*
+                * Bisou tape
+                */
+                {
+                    name: "Bisoutape",
+                    path: "/bisoutape",
+                    blocks: bisouTapeBlocks
+                },
 
                 /*
                 * Voies rapides
